@@ -10,16 +10,11 @@ function App() {
     useEffect(()=>{
       setState([])
     },[])
-    console.log('#############################')
-    console.log(state)
-    console.log('#############################')
     const clearAll= ()=>{
       setState([])
-      console.log(state)
     }
     const showAll= ()=>{
       setState(data)
-      console.log(state)
     }
   return (
     <div className="font mx-auto">
