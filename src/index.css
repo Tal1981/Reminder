@@ -1,0 +1,30 @@
+body {
+  margin: 0;  
+  font-family: 'Almarai', sans-serif;
+}
+.font {
+  font-family: 'Almarai', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cardi{
+  box-shadow:  4px 4px 4px 2px #ddd;
+  height:70vh;
+  border-radius:8px;
+  border:1px solid #ddd;
+  padding:14px;
+}
+.button{
+  width:120px ;
+  background-color: lightseagreen !important;
+  border:1px solid rgb(25, 158, 151) !important;
+}
+.button:hover{
+  background-color: rgb(25, 158, 151) !important;
+}
+.photo{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  border:1px solid #bbb;
+}
